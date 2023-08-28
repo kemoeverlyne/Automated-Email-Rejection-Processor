@@ -39,14 +39,14 @@ Run the script manually to ensure it's working correctly
 
 You can automate the execution of this script using scheduled tasks on your operating system:
 
-- **Linux/macOS (using cron):**
+## **Linux/macOS (using cron):**
 - Open your terminal.
 - Type `crontab -e` to edit your cron jobs.
 - Add a line to schedule your script. For example, to run the script every day at 3:00 AM:
  ```
  0 3 * * * /path/to/python3 /path/to/script.py
  ```
-- **Windows (using Task Scheduler):**
+## **Windows (using Task Scheduler):**
 - Open the Task Scheduler.
 - Create a new task and specify the Python interpreter and script path.
 - Set the desired schedule for the task.
